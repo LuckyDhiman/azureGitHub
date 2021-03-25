@@ -1,0 +1,102 @@
+
+            body{
+                margin:0px;
+            }
+            .header{
+                padding:25px;
+                text-align:center;
+                background:url("/Banksite_2021/img/axis4.png");
+                background-position:left;
+                background-size:200px 150px;
+                background-repeat:no-repeat;
+                background-color:#c5c0c0;
+                color:#ae285d;
+                font-size:30px;
+                font-family:sans-serif;
+                width:1469px;
+                /*border:2px solid red;*/
+            }
+            .content{
+                /*border:2px solid blue;*/
+                color:#ae285d;
+            }
+            .menubar{
+                text-align:left;
+                font-size:20px;
+                width:auto;
+                /*border:solid 5px red;*/
+            }
+            .menubar2{
+                text-align:right;
+                font-size:20px;
+                width:30%;
+                float: right;
+                /*border: dashed;*/
+                /*border:solid 5px red;*/
+            }
+
+            a{ 
+                text-decoration:none;
+                color:white;
+                font-size:20px;
+
+            }
+            .menubar a:hover {
+                color: #97144d;
+            }
+
+
+            /*Axis four feature*/
+            .axis{
+                width:80%;
+                height:150px;
+                border:3px solid #808080;
+                margin:50px 0;
+                text-align:center;
+                background-repeat:no-repeat;
+                transition: transform .2s;
+            }
+            .axis:hover{
+                transform: scale(1.2); 
+            }
+            p{
+                font-size:20px;
+                font-weight:bold;
+
+            }
+            /*footer CSS Start*/
+            .coloumn{
+                float:left;
+                width:20%;
+                height:200px;
+                margin-left:180px;
+                margin-top:50px;
+                background-color:#b6b6b6;
+                /*border:2px solid green;*/
+            }
+
+            ul {
+                list-style-type: none;
+            }
+            .footerdiv{
+                width:auto;
+                height:300px;
+                /*border:3px solid red;*/
+                background-color:#b6b6b6;
+                margin-top:-10px;
+
+            }
+            .active {
+                color: #ae285d;
+                border: 1px solid #97144d;
+                border-radius: 5px;
+                padding: 3px;
+            }
+
+            .menubar .active:hover {
+                color: white;
+                border: 1px solid #97144d;
+                border-radius: 5px;
+                padding: 3px;
+                background-color:#97144d;
+            }
